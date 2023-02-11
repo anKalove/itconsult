@@ -1,0 +1,130 @@
+/* --- Не змінюйте цю частину файла --- */
+body {
+    margin: 20px auto;
+    padding: 0;
+    width: 80%;
+    min-height: 500px;
+    font-family: Arial;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background: #293d49;
+    color: #0e2b3c;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+header h3{
+    text-align: center;
+    color: rgb(255, 231, 92);
+}
+
+.exam-logo {
+    height: 150px;
+	float: left;
+}
+
+section {    
+    box-shadow: 0px 0px 2px black;
+    margin: 10px 1px;
+    padding: 5px;
+    border: 1px solid #000;
+    min-height: 200px;
+}
+
+
+/* --- В цій частині файла виконайте ваші завдання --- */
+.task-1 {
+    background-image: url("image/01.jpg");		
+}
+
+.task-1-img{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	
+}
+
+.task-2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;	
+}
+
+   
+.task-5 thead{
+	background-color:#ffd480;
+}
+
+table {
+	border-spacing: 0px;  
+	border:1px solid red;
+}
+
+td {
+	border: 1px solid red;
+	height: 50px;
+	width: 150px;
+	text-align:center;
+}
+
+th {
+	border: 1px solid red;	
+	height: 50px;
+	width: 150px;
+	text-align:center;
+}
+
+
+.task-6 thead{
+	background-color:#ffd480; 
+}
+
+.table {
+	display: table;
+	border: 1px solid red;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	padding: 10px;
+	border: 1px solid red;	
+}
+.task-5 tbody tr:nth-child(3n){
+	background-color:red;
+} 
+
+.table .cell:nth-child(2n){
+	background-color:red;
+}
+.b-r{
+	background-color;
+}
+
+
+
+
+
+/* --- в цьому правилі нічого не потрібно змінювати --- */
+.footer {
+    background: #0e2b3c;
+    height: 25px;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
+.clearfix{
+	clear: both;
+}
