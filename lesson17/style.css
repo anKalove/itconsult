@@ -1,0 +1,24 @@
+.menu{
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+   width: 200px;   
+}
+.menu a{
+    text-decoration: none;
+    color: purple;
+    display: block;
+    padding: 5px 10px;
+}
+.menu .active {
+    background: green;
+}
+.menu > li > a{
+    border: 1px solid #000;
+}
+.menu > li:hover {
+    background-color: blueviolet;
+}
+.menu > li:hover a{    
+	color:white;
+}
