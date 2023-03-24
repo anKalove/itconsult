@@ -1,0 +1,11 @@
+ .c1{
+    width: 200px;
+    height: 100px;
+    background: none;
+    border: 1px solid gray;
+    transition: background 2s ease-out;
+}
+.c1:hover{
+    color: White;
+	text-align:50px;
+}

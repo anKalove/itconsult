@@ -1,0 +1,77 @@
+ .c1{
+    width: 80px;
+    height: 60px;
+    background: red;
+    border: 1px solid gray;
+    transition: background 2s ease-out;
+}
+.c1:hover{
+    background: none;
+}
+.c2{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background: yellowgreen;            
+}
+.d2{
+    margin-left: -150px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function:cubic-bezier(0.075,0.82, 0.165, 1);
+}
+.c2:hover +.d2{
+    margin-left:0px;
+}
+.c3{
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkblue;
+    transition: width 1s ease-in, height 1s 1s ease-out;
+}
+.c3:hover{
+    width: 100px;
+    height: 100px;
+}
+.c4{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background: yellow;
+    color: transparent;
+    border: 1px solid darkblue;
+    transition: background 1s ease-in, color 2s ease-out;
+}
+.c4:hover{
+    background: none;
+    color: black;
+}
+.c5{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    background: url("grass.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.d5{
+    width: 100%;
+    height: 100%;
+    transition: background 1s;
+}
+.d5 span{
+    position: absolute;
+    left: -200%;
+    top:30%;
+    transition: 1s;
+}
+.c5:hover .d5{
+    background: rgba(255, 255, 255, .7);
+}
+.c5:hover span{
+    left: 15%;
+}
