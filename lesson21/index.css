@@ -1,0 +1,22 @@
+ form{
+	min-height: 200px;
+	width: 320px;
+	margin: 0 auto;
+	padding:  10px;
+	background-color:#bb99ff;
+	width: 150px;
+	border-radius:15%;
+	border-bottom: 50px;
+	
+ }
+ .h{
+	font-size:20px; 
+	text-align:center;
+ }
+ .l{
+	text-align: 10px;
+	font-size:10px;
+ }
+ i{
+	text-align:center;
+	{
