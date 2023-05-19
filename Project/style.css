@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -- HEADER -- */
+header{
+    background-color: #8ec063;
+    height: 50px;
+    padding: 10px;
+}
+header img{
+    width: 50px;
+}
+header div{
+    float: left;
+}
+header ul{
+   float: right; 
+   padding-top: 15px;
+}
+header ul li {
+    display: inline;
+}
+header a{    
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #23190e;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: #07440c;
+}
+header::after{
+    content: " ";
+    clear: both;
+}
+
+/* -- MAIN -- */
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+main section img{
+    width: 300px;
+}
+main section .d1{
+	float:left;
+	padding-right:20px;
+}
+main section::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+main section .y1{
+	float:right;
+	padding-left:20px;	
+}
+.v1{
+	width:50%;
+	margin: 0 auto;
+}
+.v1 video{
+	width:100%;
+}
+
+.about section{
+	width:50%;
+	float:left;
+}
+.about section p{
+	margin:10px;
+	padding:20px;
+}
+.about section img{
+	width:100%;
+}
+	
